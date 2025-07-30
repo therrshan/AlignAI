@@ -1,30 +1,30 @@
-# 🤖 AI Resume Feedback Tool
+# AI Resume Feedback Tool
 
 An intelligent resume optimization system that uses AI to analyze your resume against job descriptions and provides actionable feedback for improving your application success rate.
 
-## ✨ Features
+## Features
 
-### 🎯 **Smart Resume Analysis**
+### **Smart Resume Analysis**
 - **Overall scoring** with detailed breakdowns (Clarity, Role Alignment, Tone)
 - **ATS optimization** suggestions for better keyword matching
 - **Professional feedback** on resume structure and content
 
-### 🏗️ **LaTeX Project Portfolio Integration**
+### **LaTeX Project Portfolio Integration**
 - **Structured project parsing** from LaTeX resume formats
 - **Intelligent project ranking** based on job relevance
 - **Technology stack analysis** with automatic keyword extraction
 
-### 🔍 **Job Matching Intelligence**
+### **Job Matching Intelligence**
 - **Semantic analysis** using RAG (Retrieval Augmented Generation)
 - **Missing keyword identification** with priority ranking
 - **Project recommendation** system for optimal resume customization
 
-### ✨ **Content Optimization**
+### **Content Optimization**
 - **Enhanced project descriptions** with improved phrasing
 - **Action verb suggestions** for stronger impact
 - **Quantifiable metrics** recommendations
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -37,7 +37,7 @@ An intelligent resume optimization system that uses AI to analyze your resume ag
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-## 💼 Usage Workflow
+## Usage Workflow
 
 ### 1. **Add Your Data**
 ```bash
@@ -113,5 +113,3 @@ Medium Priority: FastAPI, PostgreSQL, Redis
 "Built a scalable ML pipeline orchestrator using Python and PyTorch"
 → "Engineered a production-grade ML pipeline orchestrator leveraging Python, PyTorch, and Docker containers, achieving 99.9% uptime and processing 10K+ daily inference requests"
 ```
-
-Ready to optimize your resume with AI? 🚀
