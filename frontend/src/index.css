@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-gray-900 border border-gray-800 rounded-lg p-6 shadow-xl;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-800 hover:bg-gray-700 text-gray-100 font-medium px-6 py-3 rounded-lg border border-gray-700 transition-colors duration-200;
+  }
+  
+  .input-field {
+    @apply w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-gray-100 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+  }
+  
+  .textarea-field {
+    @apply w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-gray-100 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none;
+  }
+  
+  .score-badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+  }
+  
+  .score-high {
+    @apply bg-green-900/30 text-green-400 border border-green-800;
+  }
+  
+  .score-medium {
+    @apply bg-yellow-900/30 text-yellow-400 border border-yellow-800;
+  }
+  
+  .score-low {
+    @apply bg-red-900/30 text-red-400 border border-red-800;
+  }
+}
