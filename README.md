@@ -25,4 +25,4 @@ AlignAI uses Retrieval Augmented Generation (RAG) to match your resume with job 
 
 **License:** MIT | **Author:** Darshan Rajopadhye
 
-📚 [Setup Guide](./docs/SETUP.md)
+📚 [Setup Guide](./docs/READMEuod.md)
